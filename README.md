@@ -13,6 +13,7 @@ general instructions carefully **before** starting any individual task.
 | 4 | [Cross-Model KV Cache Reuse for Multi-Agent Inference (`KVBridge`)](04_kv_cache_multi_agent_inference.md) | 5 / 5 |
 | 5 | [Adversarial Probing & Intermediate-State Dumping for DNN Verifiers (`VerifierProbe`)](05_verifier_adversarial_probe.md) | 5 / 5 |
 | 6 | [Static + Dynamic Escape Finder for Python Sandboxes (`SandboxEscapeFinder`)](06_sandbox_escape_finder.md) | 3 / 5 |
+| 7 | [LLM Call Recorder & Backend Swap for the Codex Agent Harness (`CodexProbe`)](07_codex_llm_call_recorder.md) | 4 / 5 |
 
 ## What we expect from you
 
