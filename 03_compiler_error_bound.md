@@ -77,4 +77,8 @@ Where:
 - Empirical sampling over `X` never exceeds the returned `bound`.
 - You can explain why the method is sound, the role of `X`, and the limitations
   / scope of your approach.
-</content>
+
+## Suggested difficulty: 4 / 5
+Deriving a genuinely sound bound (not just an empirically-checked one)
+requires real formal-methods machinery; difficulty is tempered by the
+explicit allowance to scope down to small models or a single layer/block.

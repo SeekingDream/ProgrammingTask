@@ -81,4 +81,9 @@ Where:
   argument (no library code changes).
 - You can explain the attack objective, the optimization loop, and where
   model-specific logic is isolated.
-</content>
+
+## Suggested difficulty: 4 / 5
+Generalizing a white-box gradient attack from a single seq2seq setting to
+arbitrary causal-LM and seq2seq Hugging Face models, while keeping the attack
+objective and cost metric swappable, requires solid understanding of both the
+attack and differing model/tokenizer internals.
