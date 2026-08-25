@@ -1,5 +1,7 @@
 # Task 6 — Static + Dynamic Escape Finder for Python Execution Sandboxes (`SandboxEscapeFinder`)
 
+**Difficulty: 3 / 5**
+
 > Read `README.md` first. You may use any AI coding tool, but you must be able
 > to explain every part of your code.
 >
@@ -109,8 +111,3 @@ report = prober.run(payload_corpus)
   actually-escaping payloads.
 - You can explain, for each technique, why `RestrictedPython`'s specific
   restriction is (or isn't) sufficient against it.
-
-## Suggested difficulty: 3 / 5
-Well-scoped against a single documented target with existing payload
-catalogs to build from, but still requires real AST analysis, safe process
-isolation, and a rigorous static-vs-dynamic comparison.

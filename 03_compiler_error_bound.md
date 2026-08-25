@@ -1,5 +1,7 @@
 # Task 3 — Formal Error Bound Between a Model and Its Compiled Version
 
+**Difficulty: 4 / 5**
+
 > Read `00_general_instructions.md` first. You may use any AI coding tool, but
 > you must be able to explain every part of your code.
 
@@ -77,8 +79,3 @@ Where:
 - Empirical sampling over `X` never exceeds the returned `bound`.
 - You can explain why the method is sound, the role of `X`, and the limitations
   / scope of your approach.
-
-## Suggested difficulty: 4 / 5
-Deriving a genuinely sound bound (not just an empirically-checked one)
-requires real formal-methods machinery; difficulty is tempered by the
-explicit allowance to scope down to small models or a single layer/block.

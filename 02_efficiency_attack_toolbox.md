@@ -1,5 +1,7 @@
 # Task 2 — General-Purpose White-box Efficiency Attack Toolbox (`llm_efficiency_attack`)
 
+**Difficulty: 4 / 5**
+
 > Read `00_general_instructions.md` first. You may use any AI coding tool, but
 > you must be able to explain every part of your code.
 
@@ -81,9 +83,3 @@ Where:
   argument (no library code changes).
 - You can explain the attack objective, the optimization loop, and where
   model-specific logic is isolated.
-
-## Suggested difficulty: 4 / 5
-Generalizing a white-box gradient attack from a single seq2seq setting to
-arbitrary causal-LM and seq2seq Hugging Face models, while keeping the attack
-objective and cost metric swappable, requires solid understanding of both the
-attack and differing model/tokenizer internals.

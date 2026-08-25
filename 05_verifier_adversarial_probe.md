@@ -1,5 +1,7 @@
 # Task 5 — Adversarial Probing & Intermediate-State Dumping for DNN Verifiers (`VerifierProbe`)
 
+**Difficulty: 5 / 5**
+
 > Read `README.md` first. You may use any AI coding tool, but you must be able
 > to explain every part of your code.
 
@@ -117,9 +119,3 @@ trace = prober.dump(model, x)
   why.
 - You can explain what "sound" and "complete" mean for your chosen verifier
   and exactly where your instrumentation was inserted.
-
-## Suggested difficulty: 5 / 5
-Requires understanding a specific published numerical-soundness exploit,
-instrumenting an existing verifier codebase (potentially in Julia or C++, not
-just Python) for introspection, and being rigorous about what counts as a
-genuine finding versus a near-miss.

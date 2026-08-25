@@ -1,5 +1,7 @@
 # Task 4 — Cross-Model KV Cache Reuse for Multi-Agent Inference Pipelines (`KVBridge`)
 
+**Difficulty: 5 / 5**
+
 > Read `README.md` first. You may use any AI coding tool, but you must be able
 > to explain every part of your code.
 
@@ -136,8 +138,3 @@ report = evaluate(pipeline, dataset, step_assignments, config)
   model, and show the fallback path is exercised at least once in tests.
 - You can explain the KV adapter's design, why the layer-mapping choice is
   reasonable, and where/why it breaks down.
-
-## Suggested difficulty: 5 / 5
-Cross-architecture KV cache transfer has no established solution — this is
-open-ended research, on top of building a working multi-model pipeline with
-correct same-model cache reuse.

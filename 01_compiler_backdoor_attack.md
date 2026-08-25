@@ -1,5 +1,7 @@
 # Task 1 — General-Purpose Compiler Backdoor Attack Toolbox (`DLCLAttack`)
 
+**Difficulty: 4 / 5**
+
 > Read `00_general_instructions.md` first. You may use any AI coding tool, but
 > you must be able to explain every part of your code.
 
@@ -85,9 +87,3 @@ Where:
   argument (no library code changes).
 - You can explain the module layout, where model-specific logic is isolated, and
   how the backdoor is injected and measured.
-
-## Suggested difficulty: 4 / 5
-Generalizing a paper-specific compiler backdoor attack into a model-agnostic,
-config-driven toolbox requires understanding both the attack and enough of
-arbitrary Hugging Face model internals to isolate the model-specific parts
-cleanly.
