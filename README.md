@@ -8,7 +8,7 @@ general instructions carefully **before** starting any individual task.
 | # | Task | Difficulty |
 |---|------|:---:|
 | 1 | [Compiler Backdoor Attack Toolbox (`DLCLAttack`)](01_compiler_backdoor_attack.md) | 4 / 5 |
-| 2 | [White-box Efficiency Attack Toolbox (`llm_efficiency_attack`)](02_efficiency_attack_toolbox.md) | 2 / 5 |
+| 2 | [White-box Efficiency Attack Toolbox (`llm_efficiency_attack`)](02_efficiency_attack_toolbox.md) | 1-3 / 5 |
 | 3 | [Formal Error Bound Between a Model and Its Compiled Version](03_compiler_error_bound.md) | 5 / 5 |
 | 4 | [Cross-Model KV Cache Reuse for Multi-Agent Inference (`KVBridge`)](04_kv_cache_multi_agent_inference.md) | 3.5 / 5 |
 | 5 | [Adversarial Probing & Intermediate-State Dumping for DNN Verifiers (`VerifierProbe`)](05_verifier_adversarial_probe.md) | 5 / 5 |
