@@ -28,6 +28,9 @@ general instructions carefully **before** starting any individual task.
    task says otherwise, your deliverable is an installable Python package with a
    clean public API, examples, tests, and a short README.
 
+4. **Some problems with strikethrough are not accepted submission anymore.**
+   
+
 ## Using AI programming tools
 
 - **You may use any AI programming tool you like** (Claude Code, Cursor,
