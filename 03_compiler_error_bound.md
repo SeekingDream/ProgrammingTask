@@ -7,7 +7,7 @@
 
 ## Problem
 
-When a model is compiled (optimized, quantized, fused, lowered to a target
+When a model is compiled (optimized, fused, lowered to a target
 backend), the compiled version is not bit-for-bit identical to the original.
 Your task is to **formally bound the maximum output difference** between a model
 and its compiled version over a given input domain.
@@ -54,8 +54,7 @@ Where:
 4. **Be explicit about scope and assumptions.** Full formal verification of a
    large LLM is generally intractable. It is acceptable to:
    - target small models / sub-networks, and/or
-   - bound a well-defined slice (e.g., a single layer or block, or a reduced
-     precision/quantization step),
+   - bound a well-defined slice (e.g., a single layer or block),
    as long as you clearly state the assumptions and the bound is sound under
    them.
 5. **Validate empirically as a sanity check.** Sampling many inputs from `X`
@@ -66,7 +65,7 @@ Where:
 
 - A small package/module exposing `MaxBound(model, cl_model, X)`.
 - `examples/quickstart.py` demonstrating the API on a small model with a concrete
-  `cl_func` (e.g., quantization or a simple compile pass) and a concrete `X`.
+  `cl_func` (e.g., a simple compile pass such as `torch.compile(model)`) and a concrete `X`.
 - A short **method write-up** (in the README) explaining: the formal technique,
   the norm, the input-domain format, the assumptions, and why the bound is sound.
 - Tests: the empirical sanity check above, plus a tiny case where the bound can
